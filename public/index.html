@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern UI Webpage</title>
+  <link rel="icon" type="image/jpg" href="assets/logo.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+ <header>
+    <div class="header-top">
+      <div class="contact-info">
+        <span><i class="fa-solid fa-location-dot"></i><a href="https://www.google.com/maps?q=Shiwalik+Regency,+Shimla,+Himachal+Pradesh" target="_blank" rel="noopener">
+    Shiwalik Regency, Shimla, Himachal Pradesh
+  </a></span>
+        <span><i class="fa-solid fa-phone"></i> <a href="tel:+919816777774">+91-09816777774</a></span>
+        <span><i class="fa-solid fa-envelope"></i> <a href="mailto:shivalikregency@gmail.com">shivalikregency@gmail.com</a></span>
+      </div>
+   <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+    <div class="header-main">
+      <div class="logo">
+        <img src="assets/logo.jpg" alt="Woodpark Logo">
+      </div>
+      <nav class="navbar">
+        <a href="#">Information</a>
+        <a href="#">Accommodation</a>
+        <a href="#">Dining</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="hero" style="height: 110vh;">
+       <div class="hero-content">
+      <h1>Experience the <em>Best <br>Hotel</em> in the Heart of <br> Nature</h1>
+      <p>Experience unparalleled luxury and elegance in the <br>breathtaking hills of Shimla.</p>
+      <button class="explore-btn">EXPLORE ROOMS <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="booking-form">
+      <h2>Check Availability</h2>
+      <form>
+        <label>YOUR NAME</label>
+        <input type="text" placeholder="Your Name">
+
+        <label>YOUR PHONE NUMBER</label>
+        <input type="text" placeholder="Your Phone">
+
+        <label>CHECK-IN</label>
+        <div class="input-icon">
+          <input type="text" placeholder="MM/DD/YYYY">
+          <i class="fa-solid fa-calendar-days"></i>
+        </div>
+
+        <label>CHECK-OUT</label>
+        <div class="input-icon">
+          <input type="text" placeholder="MM/DD/YYYY">
+          <i class="fa-solid fa-calendar-days"></i>
+        </div>
+
+        <label>ROOMS</label>
+        <input type="text" placeholder="Room Quantity">
+
+        <label>GUESTS</label>
+        <input type="text" placeholder="Guests Quantity">
+
+        <button type="submit" class="submit-btn">SUBMIT <i class="fa-solid fa-arrow-right"></i></button>
+      </form>
+    </div>
+    </section>
+
+
+
+    <section class="hotel-section" style="height: 105vh;">
+  <div class="hotel-container">
+    <div class="hotel-image">
+      <img src="assets/hotle.png" alt="Hotel Woodpark Shimla">
+    </div>
+    <div class="hotel-content">
+      <h4 class="subtitle">About The Hotel</h4>
+      <h1 class="title">Best Hotel In <span>Shimla,</span> HP</h1>
+      <p>
+        Hotel Woodpark in Dhalli, Shimla, is a charming accommodation nestled amidst the serene surroundings of Dhalli, Shimla. Offering a perfect blend of comfort, convenience, and natural beauty, Hotel Woodpark Dhalli is a popular choice for travelers seeking a peaceful retreat in the lap of the Himalayas.
+      </p>
+      <p>
+        Situated in Dhalli, just a short drive away from the bustling streets of Shimla, Hotel Woodpark Dhalli enjoys a tranquil setting amidst lush greenery and scenic landscapes. The hotel offers easy access to major attractions in and around Shimla while providing a peaceful escape from the city's hustle and bustle.
+      </p>
+      <div class="hotel-stats">
+        <div>
+          <h2>50+</h2>
+          <p><em>Best Rooms</em></p>
+        </div>
+        <div>
+          <h2>4.9</h2>
+          <p><em>Customer Ratings</em></p>
+        </div>
+      </div>
+      <a href="#" class="discover-btn">DISCOVER MORE →</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <section class="rooms-section" style="height: 100vh;">
+  <div class="rooms-header">
+    <h2>Rooms & Pricing</h2>
+    <p>Affordable rooms from Rs 4000.00/night and luxurious suites at Rs 5000.00/night, offering stunning views and comfort.</p>
+  </div>
+  <div class="rooms-grid">
+    <!-- Room Card -->
+    <div class="room-card">
+      <div class="room-img">
+  <img src="assets/room1.png" alt="Deluxe Room">
+  <div class="img-overlay">
+    <a href="#" class="book-now-btn">Book Now</a>
+  </div>
+  </div>
+      <div class="room-info-overlay">
+        <h3>Deluxe Room</h3>
+        <p>"Escape to serenity in our Deluxe Cozy Room. Immerse yourself in breathtaking vallenjoying the comforts of home."</p>
+        <a href="#" class="price-tag green">Rs 4000.00 <span>/Night</span></a>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <div class="room-img">
+        <img src="assets/room1.png" alt="Superior Room">
+        <div class="img-overlay">
+    <a href="#" class="book-now-btn">Book Now</a>
+  </div>
+      </div>
+      <div class="room-info-overlay">
+        <h3>Superior Room</h3>
+        <p>"Unwind on your private balcony and soak in the breathtaking views of thkgkhgjghgjfhe valley and nature."</p>
+       <a href="#" class="price-tag green">Rs 4000.00 <span>/Night</span></a>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <div class="room-img">
+        <img src="assets/room1.png" alt="Family Suite">
+        <div class="img-overlay">
+    <a href="#" class="book-now-btn">Book Now</a>
+  </div>
+      </div>
+      <div class="room-info-overlay">
+        <h3>Family Suite</h3>
+        <p>"Spacious and comfortable, perfect for families traveling together. Relaxd after a day ofsasasasas exploring."</p>
+        <a href="#" class="price-tag green">Rs 4000.00 <span>/Night</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <section class="experience-section" style="height: fit-content;">
+  <h2>Book Your Experience Today</h2>
+  <p>Our hotel offers premium facilities including Nature Trails, high-speed internet, Hiking, Marriage Hall, and Resturant.</p>
+
+  <div class="experience-grid">
+    <div class="experience-card">
+      <img src="nature-icon.png" alt="Nature Trails">
+      <span>Nature Trails</span>
+    </div>
+    <div class="experience-card">
+      <img src="hiking-icon.png" alt="Hiking">
+      <span>Hiking</span>
+    </div>
+    <div class="experience-card">
+      <img src="internet-icon.png" alt="Internet">
+      <span>Internet</span>
+    </div>
+    <div class="experience-card">
+      <img src="restaurant-icon.png" alt="Resturant">
+      <span>Resturant</span>
+    </div>
+    <div class="experience-card">
+      <img src="marriage-icon.png" alt="Marriage Hall">
+      <span>Marriage Hall</span>
+    </div>
+    <div class="experience-card">
+      <img src="banquet-icon.png" alt="Banquet">
+      <span>Banquet</span>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="video-section" style="height: 95vh;">
+  <video autoplay muted loop playsinline>
+    <source src="assets/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay"></div>
+  <div class="video-content">
+    <h2>Watch Our Video</h2>
+  </div>
+</section>
+
+<section class="attractions-section">
+  <h2>Tourism Attractions</h2>
+  <p>
+    Explore stunning mountain trails, scenic views, wildlife, hiking, adventure sports,
+    cultural heritage, serene retreats, spas.
+  </p>
+
+  <div class="attractions-grid">
+    <img src="assets/att1.png" alt="Attraction 1" class="large">
+    <img src="assets/att2.png" alt="Attraction 2" class="small">
+    <img src="assets/att3.png" alt="Attraction 3" class="small">
+    <img src="assets/att4.png" alt="Attraction 4" class="small">
+    <img src="assets/att5.png" alt="Attraction 5" class="small">
+  </div>
+</section>
+
+
+
+<section class="contact-section">
+  <div class="contact-content">
+    <h4>Contact Us</h4>
+    <h2>If You Wish To<br> Learn More Ask Before<br> Booking.</h2>
+    <p>Contact us today for reservations, inquiries, or assistance. We’re here to make your stay unforgettable!</p>
+  </div>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="text" placeholder="Your Phone Number" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Message" required></textarea>
+    <div class="checkbox">
+      <input type="checkbox" id="terms" required>
+      <label for="terms">I agree to the terms & conditions</label>
+    </div>
+    <button type="submit">SUBMIT NOW →</button>
+  </form>
+</section>
+
+  
+  
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="hotel-footer">
+  <div class="footer-top">
+    <div class="footer-about">
+      <img src="assets/logo.jpg" alt="Woodpark Logo" class="footer-logo">
+      <p>
+        Each room features plush bedding, high-quality linens, and a selection of ensure a restful night's sleep.
+      </p>
+    </div>
+    
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Rooms & Suites</a></li>
+        <li><a href="#">Dining</a></li>
+        <li><a href="#">Famous Places Around</a></li>
+        <li><a href="#">Our Specialities</a></li>
+        <li><a href="#">Access Routes</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-services">
+      <h4>Guest Service</h4>
+      <ul>
+        <li>24/7 Front Desk</li>
+        <li>Parking</li>
+        <li>Room Service</li>
+        <li>Free Wi-Fi</li>
+        <li>Concierge Service</li>
+      </ul>
+    </div>
+    
+  <div class="footer-contact">
+  <h4>Contact Us</h4>
+  <ul>
+    <li><i class="fa-brands fa-whatsapp"></i> <a href="tel:+918894613000">+91-XXXXXXXXXX</a></li>
+    <li><i class="fa-brands fa-whatsapp"></i> <a href="tel:+917591059000">+91-XXXXXXXXXX</a></li>
+    <li><i class="fa-brands fa-whatsapp"></i> <a href="tel:+919805859040">+91-XXXXXXXXXX</a></li>
+    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:woodparkhotel@gmail.com">shivalikregency@gmail.com</a></li>
+    <li class="footer-location"><i class="fa-solid fa-location-dot"></i> <a href="https://www.google.com/maps/place/Hotel+Shiwalik+Regency+-+Mall+Road+Shimla/@31.1023551,77.1763707,17z/data=!3m1!4b1!4m9!3m8!1s0x39057893f4e55581:0xf672d70700f6fd7c!5m2!4m1!1i2!8m2!3d31.1023551!4d77.1789456!16s%2Fg%2F1hd_vy4f9?entry=ttu&g_ep=EgoyMDI1MDYyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener"> 
+    Hotel Woodpark Woodrina Estate, Shishu Kendra Road, Dhalli, near Kufri, Shimla, Himachal Pradesh 171012</a></li>
+  </ul>
+</div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright © 2025 Shiwalik Regency All rights reserved.</p>
+    <div class="footer-social">
+      <a href="#">Facebook</a> |
+      <a href="#">LinkedIn</a> |
+      <a href="#">Twitter</a>
+    </div>
+  </div>
+
+  <a href="#" class="footer-float-btn">
+    ↑
+  </a>
+
+  <a href="https://wa.me/919816777774" class="footer-float-btn-abc"><i class="fa-brands fa-whatsapp"></i></a>
+
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+domainque-font family
